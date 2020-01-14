@@ -19,9 +19,9 @@ public class Lang
 	
 	public static final Mson COMMAND_REPLACEMENT = mson("REPLACEMENT").color(ChatColor.YELLOW);
 	
-	public static final Mson COMMAND_CHILD_AMBIGUOUS = mson("§eComando não encontrado.").color(ChatColor.YELLOW);
-	public static final Mson COMMAND_CHILD_NONE = mson("§eComando não encontrado.").color(ChatColor.YELLOW);
-	public static final Mson COMMAND_CHILD_HELP = mson("§eUse §6/f §epara abrir o menu de ajuda.").color(ChatColor.YELLOW);
+	public static final Mson COMMAND_CHILD_AMBIGUOUS = mson("§eComando não encontrado.").color(ChatColor.YELLOW).tooltip("§8Clique para §e/f");
+	public static final Mson COMMAND_CHILD_NONE = mson("§eComando não encontrado.").color(ChatColor.YELLOW).tooltip("§8Clique para §e/f");
+	public static final Mson COMMAND_CHILD_HELP = mson("§eUse §6/f §epara abrir o menu de ajuda.").color(ChatColor.YELLOW).tooltip("§8Clique para §e/f");
 	
 	public static final String COMMAND_TOO_MANY_TAB_SUGGESTIONS = "§cHá §c%d §cpossibilidades de auto-completamento para isto. Tente ser mais especifico.";
 }

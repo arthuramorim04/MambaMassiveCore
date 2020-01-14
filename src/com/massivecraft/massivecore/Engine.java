@@ -9,6 +9,7 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.block.BlockMultiPlaceEvent;
 import org.bukkit.event.block.BlockPlaceEvent;
 import org.bukkit.event.player.PlayerInteractEntityEvent;
+import org.bukkit.inventory.EquipmentSlot;
 import org.bukkit.scheduler.BukkitTask;
 
 import java.util.Set;
@@ -199,7 +200,7 @@ public abstract class Engine implements Active, Listener, Runnable
 	{
 		try
 		{
-			return event.getHand() == org.bukkit.inventory.EquipmentSlot.OFF_HAND; 
+			return event.getHand() == EquipmentSlot.OFF_HAND;
 		}
 		catch (Throwable t)
 		{

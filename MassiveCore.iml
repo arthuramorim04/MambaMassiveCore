@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="EclipseModuleManager">
+    <libelement value="file://C:/Users/Mior/Documents/depends/spigot-1.12.2.jar" />
+    <libelement value="file://C:/Users/Mior/Documents/depends/MambaMassiveCore.jar" />
+    <libelement value="file://C:/Users/Mior/Documents/depends/Vault.jar" />
+    <libelement value="file://C:/Users/Mior/Documents/depends/MambaFactions Premium.jar" />
+    <src_description expected_position="1">
+      <src_folder value="file://$MODULE_DIR$/src" expected_position="1" />
+      <src_folder value="file://$MODULE_DIR$/xlib" expected_position="2" />
+    </src_description>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/bin" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/xlib" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="spigot-1.12.2.jar">
+        <CLASSES>
+          <root url="file://C:/Users/Mior/Documents/depends/spigot-1.12.2.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="MambaMassiveCore.jar">
+        <CLASSES>
+          <root url="file://C:/Users/Mior/Documents/depends/MambaMassiveCore.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="Vault.jar">
+        <CLASSES>
+          <root url="file://C:/Users/Mior/Documents/depends/Vault.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="MambaFactions Premium.jar">
+        <CLASSES>
+          <root url="file://C:/Users/Mior/Documents/depends/MambaFactions Premium.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="spigot" level="project" />
+    <orderEntry type="library" name="Vault" level="project" />
+    <orderEntry type="library" name="MassiveCore" level="project" />
+  </component>
+</module>

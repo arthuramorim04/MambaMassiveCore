@@ -121,6 +121,9 @@ public class Txt
 		parseReplacements.put("<k>", "\u00A7b");
 		parseReplacements.put("<key>", "\u00A7b");
 		
+		parseReplacements.put("<x>", "\u00A78");
+		parseReplacements.put("<xaman>", "\u00A78");
+		
 		parseReplacements.put("<v>", "\u00A7d");
 		parseReplacements.put("<value>", "\u00A7d");
 		parseReplacements.put("<h>", "\u00A7d");
@@ -476,18 +479,14 @@ public class Txt
 	// Paging and chrome-tools like titleize
 	// -------------------------------------------- //
 	
-	private final static String titleizeLine = repeat("_", 52);
+	private final static String titleizeLine = repeat(" ", 52);
 	private final static int titleizeBalance = -1;
 	public static Mson titleize(Object obj)
 	{
 		Mson title = mson(obj);
 		if (title.getColor() == null) title = title.color(ChatColor.DARK_GREEN);
 		
-		Mson center = mson(
-			mson(".[ ").color(ChatColor.GOLD),
-			title,
-			mson(" ].").color(ChatColor.GOLD)
-		);
+		Mson center = mson(title);
 		
 		int centerlen = center.length();
 		int pivot = titleizeLine.length() / 2;
@@ -538,17 +537,15 @@ public class Txt
 		
 		// Math
 		Mson title = mson(obj, Mson.SPACE, "[<]", String.valueOf(pageHumanBased), "/", String.valueOf(pagecount), "[>]");
-		int centerlen = ".[ ".length() + title.length() + " ].".length();
+		int centerlen = + title.length();
 		int pivot = titleizeLine.length() / 2;
 		int eatLeft = (centerlen / 2) - titleizeBalance;
 		int eatRight = (centerlen - eatLeft) + titleizeBalance;
 
 		// Mson
 		Mson centerMson = mson(
-			mson(".[ ").color(ChatColor.GOLD),
 			mson(obj, Mson.SPACE).color(ChatColor.DARK_GREEN),
-			getFlipSection(pagecount, pageHumanBased, args, command),
-			mson(" ].").color(ChatColor.GOLD)
+			getFlipSection(pagecount, pageHumanBased, args, command)
 		);
 
 		if (eatLeft < pivot)

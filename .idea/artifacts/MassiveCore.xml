@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="MassiveCore">
+    <output-path>$PROJECT_DIR$/classes/artifacts/MassiveCore</output-path>
+    <root id="archive" name="MassiveCore.jar">
+      <element id="module-output" name="MassiveCore" />
+      <element id="library" level="module" name="spigot-1.12.2.jar" module-name="MassiveCore" />
+      <element id="extracted-dir" path="C:/servidores/1.8/spigot.jar" path-in-jar="/" />
+      <element id="library" level="module" name="Vault.jar" module-name="MassiveCore" />
+      <element id="library" level="module" name="MambaFactions Premium.jar" module-name="MassiveCore" />
+      <element id="library" level="module" name="MambaMassiveCore.jar" module-name="MassiveCore" />
+    </root>
+  </artifact>
+</component>

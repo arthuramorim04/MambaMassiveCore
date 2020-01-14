@@ -150,11 +150,11 @@ public class TimeDiffUtil
 	// FORMAT
 	// -------------------------------------------- //
 	
-	public static final String FORMAT_ENTRY_VERBOOSE = Txt.parse("<i>%1$d <i>%3$s");
+	public static final String FORMAT_ENTRY_VERBOOSE = Txt.parse("§7%1$d §7%3$s");
 	public static final String FORMAT_COMMA_VERBOOSE = "%s, ";
 	public static final String FORMAT_AND_VERBOOSE = " %se ";
 	
-	public static final String FORMAT_ENTRY_MINIMAL = Txt.parse("<i>%1$d<i>%2$s");
+	public static final String FORMAT_ENTRY_MINIMAL = Txt.parse("§7%1$d§7%2$s");
 	public static final String FORMAT_COMMA_MINIMAL = "%s ";
 	public static final String FORMAT_AND_MINIMAL = "%s ";
 	

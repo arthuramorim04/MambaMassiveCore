@@ -6,5 +6,6 @@
 	<classpathentry kind="lib" path="C:/Users/Mior/Documents/depends/spigot-1.12.2.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Mior/Documents/depends/MambaMassiveCore.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Mior/Documents/depends/Vault.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mior/Documents/depends/MambaFactions Premium.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

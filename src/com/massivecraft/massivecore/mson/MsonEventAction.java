@@ -30,8 +30,8 @@ public enum MsonEventAction
 	
 	public String getTooltipPrefix()
 	{
-		if (this == SUGGEST_COMMAND) return Txt.parse("<gray>Clique para <gold>");
-		if (this == RUN_COMMAND) return Txt.parse("<gray>Clique para <gold>");
+		if (this == SUGGEST_COMMAND) return Txt.parse("<gray>Clique para <l>");
+		if (this == RUN_COMMAND) return Txt.parse("<gray>Clique para <l>");
 		if (this == OPEN_URL) return Txt.parse("<gray>Link: <gold>");
 		return null;
 	}
